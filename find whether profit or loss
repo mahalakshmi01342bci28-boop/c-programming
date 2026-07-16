@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+   float cp,sp,result;
+   printf("enter the cost price:");
+   scanf("%f",&cp);
+   printf("enter the selling price:");
+   scanf("%f",&sp);
+   result=sp-cp;
+   printf("net balance =%2f\n",result);
+   printf("(positve means profit,negative means loss)\n");
+   return 0;
+}

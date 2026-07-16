@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+   int basic,da,hra,allowance=2000,gs;
+   printf("enter the basic pay:");
+   scanf("%d",&basic);
+   da=(40*basic)/100;
+   hra=(10*basic)/100;
+   gs=basic+da+hra+allowance;
+   printf("basic_pa=%d\n",basic);
+   printf("DA(40%)=%d\n",da);
+   printf("HRA(10%)=%d\n",hra);
+   printf("gross salary=%d\n",gs);
+   return 0;
+}

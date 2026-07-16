@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+   int radius,area,volume,height,lenght;
+   printf("enter radius:");
+   scanf("%d",&radius);
+   printf("enter the height");
+   scanf("%d",&height);
+   printf("enter the lenght",&lenght);
+   scanf("%d",&lenght);
+   volume=(3.14+(radius*radius))+(3.14*radius*lenght);
+   area=(3.14*radius*radius*height)/3;
+   printf("area = %d\n",area);
+   printf("volume = %d\n",volume);
+   return 0;
+}
